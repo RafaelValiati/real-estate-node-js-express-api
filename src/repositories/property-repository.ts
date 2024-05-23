@@ -66,7 +66,7 @@ export const findAllProperties = async (): Promise<PropertyModel[]> =>{
 }
 
 
-export const findPropertyById = async (id: number): Promise<PropertyModel[] | undefined> => {
+export const findPropertyById = async (id: number): Promise<PropertyModel[]> => {
 
 
     // const isEven = number => number % 2 === 0;
